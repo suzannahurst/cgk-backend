@@ -4,21 +4,31 @@
   "info": {
     "singularName": "adventure",
     "pluralName": "adventures",
-    "displayName": "Adventures"
+    "displayName": "Adventures",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Location": {
+    "location": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "text"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "adventures"
     }
   }
 }

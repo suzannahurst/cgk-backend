@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "singularName": "tag",
+    "pluralName": "tags",
+    "displayName": "Tags",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "adventures": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::adventure.adventure",
+      "inversedBy": "tags"
+    },
+    "fairs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::fair.fair",
+      "inversedBy": "tags"
+    },
+    "artists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::artist.artist",
+      "inversedBy": "tags"
+    }
+  }
+}
