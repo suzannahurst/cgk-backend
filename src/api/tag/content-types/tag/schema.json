@@ -29,7 +29,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::fair.fair",
-      "inversedBy": "tags"
+      "mappedBy": "tags"
     },
     "artists": {
       "type": "relation",

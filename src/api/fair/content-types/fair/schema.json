@@ -46,6 +46,10 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "inversedBy": "fairs"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

@@ -54,7 +54,7 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 ---
 
-# Deploy
+## Deploy to heroku
 
 git add .
 git commit -am "Changes to my-project noted"
