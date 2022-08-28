@@ -35,7 +35,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::artist.artist",
-      "inversedBy": "tags"
+      "mappedBy": "tags"
     }
   }
 }
