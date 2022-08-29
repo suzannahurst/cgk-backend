@@ -23,7 +23,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::adventure.adventure",
-      "inversedBy": "tags"
+      "mappedBy": "tags"
     },
     "fairs": {
       "type": "relation",

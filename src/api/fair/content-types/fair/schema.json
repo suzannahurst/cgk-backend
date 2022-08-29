@@ -18,9 +18,6 @@
     "location": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "programme": {
       "type": "richtext"
     },
@@ -52,6 +49,9 @@
       ]
     },
     "directions": {
+      "type": "richtext"
+    },
+    "description": {
       "type": "richtext"
     }
   }
