@@ -51,7 +51,7 @@
     "biog": {
       "type": "richtext"
     },
-    "location": {
+    "showlocation": {
       "type": "string"
     },
     "oneline": {
