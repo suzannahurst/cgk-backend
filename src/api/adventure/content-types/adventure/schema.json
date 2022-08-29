@@ -29,6 +29,15 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "keyinfo": {
+      "type": "richtext"
+    },
+    "tube": {
+      "type": "string"
+    },
+    "gm": {
+      "type": "string"
     }
   }
 }
