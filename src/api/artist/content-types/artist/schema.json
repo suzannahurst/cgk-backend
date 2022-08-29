@@ -45,7 +45,7 @@
       "target": "api::tag.tag",
       "inversedBy": "artists"
     },
-    "shows": {
+    "showtimes": {
       "type": "string"
     },
     "description": {
@@ -53,6 +53,9 @@
     },
     "biog": {
       "type": "richtext"
+    },
+    "location": {
+      "type": "string"
     }
   }
 }
