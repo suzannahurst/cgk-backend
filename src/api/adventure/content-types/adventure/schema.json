@@ -40,10 +40,10 @@
       "type": "string"
     },
     "latitude": {
-      "type": "decimal"
+      "type": "float"
     },
     "longitude": {
-      "type": "decimal"
+      "type": "float"
     },
     "oneline": {
       "type": "string"
