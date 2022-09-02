@@ -38,6 +38,15 @@
     },
     "gm": {
       "type": "string"
+    },
+    "latitude": {
+      "type": "decimal"
+    },
+    "longitude": {
+      "type": "decimal"
+    },
+    "oneline": {
+      "type": "string"
     }
   }
 }
