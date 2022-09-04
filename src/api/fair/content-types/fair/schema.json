@@ -65,6 +65,9 @@
     },
     "longitude": {
       "type": "decimal"
+    },
+    "date": {
+      "type": "string"
     }
   }
 }
