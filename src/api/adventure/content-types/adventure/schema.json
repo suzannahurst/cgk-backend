@@ -47,6 +47,15 @@
     },
     "oneline": {
       "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "families",
+        "kids",
+        "adults",
+        "fair"
+      ]
     }
   }
 }
