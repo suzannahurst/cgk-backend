@@ -22,7 +22,7 @@ npm run start
 yarn start
 ```
 
-### `build`
+### `build` d
 
 Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
