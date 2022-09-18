@@ -72,6 +72,12 @@
     "keyinfo": {
       "type": "text",
       "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "fair"
+      ]
     }
   }
 }
