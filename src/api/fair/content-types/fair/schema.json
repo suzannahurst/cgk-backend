@@ -68,6 +68,10 @@
     },
     "date": {
       "type": "string"
+    },
+    "keyinfo": {
+      "type": "text",
+      "required": true
     }
   }
 }
