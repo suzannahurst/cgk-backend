@@ -45,8 +45,9 @@
     "longitude": {
       "type": "float"
     },
-    "oneline": {
-      "type": "string"
+    "after": {
+      "type": "text",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -56,6 +57,20 @@
         "adults",
         "fair"
       ]
+    },
+    "openingTime": {
+      "type": "string"
+    },
+    "lastEntry": {
+      "type": "string"
+    },
+    "startingInstruction": {
+      "type": "text",
+      "required": true
+    },
+    "logistics": {
+      "type": "text",
+      "required": true
     }
   }
 }
