@@ -18,7 +18,7 @@
     "answer": {
       "type": "richtext"
     },
-    "categories": {
+    "category": {
       "type": "enumeration",
       "enum": [
         "about",
