@@ -28,10 +28,6 @@
         "local"
       ],
       "required": true
-    },
-    "orderInCat": {
-      "type": "integer",
-      "required": true
     }
   }
 }
