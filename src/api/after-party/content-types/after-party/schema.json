@@ -32,6 +32,13 @@
     },
     "type": {
       "type": "string"
+    },
+    "OpeningHours": {
+      "type": "string",
+      "required": true
+    },
+    "gm": {
+      "type": "string"
     }
   }
 }
