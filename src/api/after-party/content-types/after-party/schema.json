@@ -36,9 +36,6 @@
     "OpeningHours": {
       "type": "string",
       "required": true
-    },
-    "gm": {
-      "type": "string"
     }
   }
 }

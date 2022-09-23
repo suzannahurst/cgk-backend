@@ -4,7 +4,8 @@
   "info": {
     "singularName": "faq",
     "pluralName": "faqs",
-    "displayName": "FAQs"
+    "displayName": "FAQs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,21 @@
     },
     "answer": {
       "type": "richtext"
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "about",
+        "travel",
+        "plan",
+        "security",
+        "local"
+      ],
+      "required": true
+    },
+    "orderInCat": {
+      "type": "integer",
+      "required": true
     }
   }
 }
